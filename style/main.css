@@ -1,0 +1,76 @@
+
+		/* basic setup */
+		* {
+			margin: 0;
+			padding: 0; }
+		html { background-image: url(../img/noisetexturelight2.png); }
+
+		
+		/* the styles for the header, main content, sidebar, and footer */
+		header { border-bottom: 2px solid black; }
+
+		main {
+			position:absolute;
+			right: 16px;
+			
+			clear: both;
+			margin: 15px auto;
+			border: 1px solid black; 
+			height: 90%;
+				width: 98.2%;
+				clear: both;
+				background-image: url(../img/noisetexturedark.png);	
+			}
+			
+		.content {
+			position:absolute;
+			right: 1px;
+			top: 3.5em;
+			width: 78%;
+			
+		}
+
+		body main h2 {
+			background-color: rgb(86, 123, 158);
+			padding: .25em;
+			font-family: C64Pro, sans-serif;
+			border: 3px solid slategray;
+			text-align: center;
+			margin:0 3em 0;
+		}
+
+		body main p {
+			background-color: rgb(67, 149, 182);
+			position: relative;
+			border: 3px solid slategray;
+			margin:0 4.5em 0;
+			font-family: ubuntu, sans-serif;
+			width: 87.2%;
+		}
+
+		/* footer */
+		footer {
+			padding: .25em;
+			position: relative;
+			background-color: rgb(67, 149, 182);
+			left: 16.5%;
+			width: 76%;
+			height: 7em;
+			border: 3px solid slategray;
+			border-top: 2px solid #ef9c00; 
+			margin:0 4.5em 0;
+		}
+		footer p {
+			width: 75%;
+			font-family: ubuntu, sans-serif;
+			margin-left: 1em;
+			float: inline-start;
+		}
+
+		/* footer aside */
+		#footaside {
+			font-size: 150%;
+			font-family: orbitron, sans-serif;
+			margin-right: 1em;
+			float: inline-end;
+		}

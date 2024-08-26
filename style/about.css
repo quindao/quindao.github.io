@@ -1,0 +1,53 @@
+		/*about page specific contents*/
+		#logo {
+			float: left;
+			position: relative;
+			
+			border-radius: 0 64px 64px 0;
+			background-color: white;
+			border-right: 5px solid rgb(57, 89, 121);
+			border-top: 5px solid rgb(57, 89, 121);
+			border-bottom: 5px solid rgb(57, 89, 121);
+			border-left: 5px solid slategray;
+		}
+		#aboutp {
+			float: left;
+			
+		
+		}
+		.members {
+			float:left;
+			margin-left: 1px;
+			border-radius: 64px 64px 64px 64px;
+			background-color: white;
+			border: 5px solid rgb(57, 89, 121);
+		}
+        
+		#goals	{
+			padding-left: 3em;
+		}
+		.content{
+			height: 1200px;
+		}
+		#projectsul {
+			background-color: rgb(67, 149, 182);
+			position: relative;
+			border: 3px solid slategray;
+			margin:0 4.5em 0;
+			font-family: ubuntu, sans-serif;
+		}
+		#projectsul li a:link, #projectsul li a:visited{
+			color: rgb(255, 187, 0);
+			font-family: c64pro;
+			font-weight: normal;
+		}
+		#projectsul li {
+			margin:0 2em 0;
+			font-family: ubuntu, sans-serif;
+		}
+		footer{
+			top: 1120px;
+		}
+		body main h1{
+			clear: both;
+		}
