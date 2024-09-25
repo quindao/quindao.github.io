@@ -47,7 +47,10 @@
 			font-family: ubuntu, sans-serif;
 			width: 87.2%;
 		}
-
+		body main p img{
+			border: 4px, solid, rgb(0, 50, 50);
+			float: left;
+		}
 		/* footer */
 		footer {
 			padding: .25em;
